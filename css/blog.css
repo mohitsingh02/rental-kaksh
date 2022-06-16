@@ -20,7 +20,7 @@ body{
 }
 .bg-img{
     height: 40vh;
-    background-image: url(/assets/mm.jfif);
+    background-image: url(/assets/mm.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
