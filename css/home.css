@@ -22,7 +22,7 @@ body{
 }
 .bg-img{
     height: 90vh;
-    background-image: url(/assets/r4.jpg);
+    background-image: url(./assets/r4.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
