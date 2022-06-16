@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display&display=swap');
+
+
+body{
+    overflow-x: hidden;
+    background-color: rgb(231, 231, 231);
+}
+.navbar{
+    font-family: Playfair Display;
+    padding-left: 3vw;
+    padding-right: 4vw;
+}
+.navbar-brand{
+    padding-left: 1vw;
+}
+.bg-dark{
+    background-color: rgb(20, 20, 20)!important;
+}
+.nav-item{
+    margin-right: 2vw;
+}
+.contactHeading{
+    padding-top: 10vh;
+    color: white;
+    font-family: Playfair Display;
+    font-size: 4vw;
+}
+.bg-img{
+    background-color: rgb(20, 20, 20);
+    height: 30vh;
+}
+.contact-desc{
+    font-family: Playfair Display;
+    font-size: 2vw;
+}
+.input-box{
+    width: 60vw;
+    outline: none;
+    border: 0px;
+    border-bottom: 2px solid #B8A271;
+}
+.btn-submit{
+   background-color: #B8A271;
+   height: 4vw;
+   width: 4vw;
+   color: white;
+   font-family: Playfair Display;
+   font-size: 1.2vw;
+   transform: rotate(45deg);
+   border: none;
+}
+.location-detail{
+    border-right: 2px solid white;
+    text-align: right;
+}
+.locationHeading{
+    font-family: Playfair Display;
+    font-size: 2.5vw;
+    font-weight: bold;
+    color: #B8A271;
+}
+.address{
+    color: white;
+    font-family: Playfair Display;
+    font-size: 1.2vw;
+}
+.contact-detail{
+    text-align: left;
+}
+.contact-info{
+    color: white;
+    font-family: Playfair Display;
+    font-size: 1.2vw;
+}
+
+
+
+footer{
+    color: white;
+    font-family: Playfair Display;
+}
+.footer-text{
+    font-size: 1.5vw; 
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 724px) {
+   
+    .footer-text{
+        font-size: 6vw;
+    }
+    .contactHeading{
+        font-size: 10vw;
+    }
+    .locationHeading{
+        font-size: 7vw;
+    }
+    .address{
+        font-size: 4vw;
+    }
+    .contact-info{
+        font-size: 4vw;
+    }
+    .location-detail{
+        text-align: center;
+        border: none;
+    }
+    .contact-detail{
+        text-align: center;
+    }
+    .btn-submit{
+        font-size: 4vw;
+        height: 12vw;
+        width: 12vw;
+    }
+    
+    
+}
+ 
+ @media screen and (min-width: 724px) and (max-width: 1050px){
+     .navbar-brand{
+         font-size: 2vw;
+     }
+     .contactHeading{
+        font-size: 10vw;
+    }
+    .locationHeading{
+        font-size: 4vw;
+    }
+    .address{
+        font-size: 20px;
+    }
+    .contact-info{
+        font-size: 20px;
+    }
+   
+ }
+ @media screen and (min-width: 1050px) {
+     .navbar-brand{
+         font-size: 2.5vh;
+     }
+     
+     
+     
+ }

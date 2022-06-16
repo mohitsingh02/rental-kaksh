@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display&display=swap');
+
+
+body{
+    overflow-x: hidden;
+}
+.navbar{
+    font-family: Playfair Display;
+    padding-left: 3vw;
+    padding-right: 4vw;
+}
+.navbar-brand{
+    padding-left: 1vw;
+}
+.bg-dark{
+    background-color: rgb(20, 20, 20)!important;
+}
+.nav-item{
+    margin-right: 2vw;
+}
+.bg-img{
+    height: 40vh;
+    background-image: url(/assets/r3.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+.bg-cover{
+    height: 40vh;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.roomdetail-holder{
+    background-color: rgb(228, 228, 228);
+    margin-top: -10vh;
+}
+.price-tag{
+    font-family: Playfair Display;
+    font-size: 1.5vw;
+    font-weight: bold;
+    color: #B8A271;
+}
+.room-name{
+    font-family: Playfair Display;
+    font-size: 2.5vw;
+    font-weight: bold;
+}
+.room-details{
+    font-family: Playfair Display;
+    font-size: 1.5vw;
+    font-weight: bold;
+}
+.zoom{
+    overflow: hidden;
+    position: relative;
+    transition: 0.8s ease;
+}
+.compact-gallery .zoom:hover .image{
+    transform: scale(1.3);
+    opacity: 0.8;
+}
+.image{
+    transition: 0.8s ease;
+}
+.partHeading{
+    font-family: Playfair Display;
+    font-size: 3vw;
+    font-weight: bold;
+}
+.location-detail{
+    border-right: 2px solid white;
+    text-align: right;
+}
+.locationHeading{
+    font-family: Playfair Display;
+    font-size: 2.5vw;
+    font-weight: bold;
+    color: #B8A271;
+}
+.address{
+    color: white;
+    font-family: Playfair Display;
+    font-size: 1.2vw;
+}
+.contact-detail{
+    text-align: left;
+}
+.contact-info{
+    color: white;
+    font-family: Playfair Display;
+    font-size: 1.2vw;
+}
+.btn-outline-dark{
+    border: 2px solid #B8A271;
+    border-color: #B8A271;
+    border-radius: 50px;
+    font-family: Playfair Display;
+    padding: 2px 30px 2px 30px;
+    font-size: 1vw;
+}
+.btn-outline-dark:hover{
+    background-color: #B8A271;
+    border-color: #B8A271;
+}
+
+
+
+footer{
+    color: white;
+    font-family: Playfair Display;
+}
+.footer-text{
+    font-size: 1.5vw; 
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 724px) {
+    .bg-img{
+        height: 30vh;
+    }
+    .bg-cover{
+        height: 30vh;
+    }
+    .landing-container{
+        padding-top: 10vh;
+    }
+    .blogHeading{
+        font-size: 10vw;
+    }
+    .price-tag{
+        font-size: 5vw;
+    }
+    .room-name{
+        font-size: 5vw;
+    }
+    .room-details{
+        font-size: 5vw;
+    }
+    .partHeading{
+        font-size: 8vw;
+    }
+    .locationHeading{
+        font-size: 7vw;
+    }
+    .address{
+        font-size: 4vw;
+    }
+    .contact-info{
+        font-size: 4vw;
+    }
+    .location-detail{
+        text-align: center;
+        border: none;
+    }
+    .contact-detail{
+        text-align: center;
+    }
+    .btn-outline-dark{
+        font-size: 3vw;
+    }
+    .footer-text{
+        font-size: 6vw;
+    }
+}
+ 
+ @media screen and (min-width: 724px) and (max-width: 1050px){
+     .navbar-brand{
+         font-size: 2vw;
+     }
+     .blogHeading{
+        font-size: 10vw;
+    }
+    .price-tag{
+        font-size: 3vw;
+    }
+    .room-name{
+        font-size: 4vw;
+    }
+    .room-details{
+        font-size: 3vw;
+    }
+    .partHeading{
+        font-size: 6vw;
+    }
+    .btn-outline-dark{
+        font-size: 2.5vw;
+    }
+    .locationHeading{
+        font-size: 4vw;
+    }
+    .address{
+        font-size: 20px;
+    }
+    .contact-info{
+        font-size: 20px;
+    }
+   
+ }
+ @media screen and (min-width: 1050px) {
+     .navbar-brand{
+         font-size: 2.5vh;
+     }
+     
+     
+     
+ }

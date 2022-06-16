@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display&display=swap');
+
+
+body{
+    overflow-x: hidden;
+}
+.navbar{
+    font-family: Playfair Display;
+    padding-left: 3vw;
+    padding-right: 4vw;
+}
+.navbar-brand{
+    padding-left: 1vw;
+}
+.bg-dark{
+    background-color: rgb(20, 20, 20)!important;
+}
+.nav-item{
+    margin-right: 2vw;
+}
+.bg-img{
+    height: 40vh;
+    background-image: url(/assets/mm.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+.bg-cover{
+    height: 40vh;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.blogHeading{
+    font-family: Playfair Display;
+    font-size: 4vw;
+}
+.landing-container{
+    padding-top: 15vh;
+    color: white;
+}
+.newsHeading{
+    font-family: Playfair Display;
+    font-size: 2vw;
+    font-weight: bold;
+}
+.newsDescription{
+    font-family: Playfair Display;
+}
+.blogImage{
+   margin: -5vh 0vh 0vh 0vh;
+}
+.blogCard{
+    margin-top: 8vh;
+}
+
+
+
+footer{
+    color: white;
+    font-family: Playfair Display;
+}
+.footer-text{
+    font-size: 1.5vw; 
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 724px) {
+    .bg-img{
+        height: 30vh;
+    }
+    .bg-cover{
+        height: 30vh;
+    }
+    .landing-container{
+        padding-top: 10vh;
+    }
+    .blogHeading{
+        font-size: 10vw;
+    }
+    .newsHeading{
+        font-size: 6vw;
+    }
+    .newsDescription{
+        font-size: 4vw;
+    }
+    .footer-text{
+        font-size: 6vw;
+    }
+
+    
+}
+ 
+ @media screen and (min-width: 724px) and (max-width: 1050px){
+     .navbar-brand{
+         font-size: 2vw;
+     }
+     .blogHeading{
+        font-size: 10vw;
+    }
+    .newsHeading{
+        font-size: 3vw;
+    }
+    .newsDescription{
+        font-size: 1.5vw;
+    }
+    
+ }
+ @media screen and (min-width: 1050px) {
+     .navbar-brand{
+         font-size: 2.5vh;
+     }
+     
+     
+     
+ }

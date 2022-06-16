@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display&display=swap');
+
+
+body{
+    overflow-x: hidden;
+}
+.navbar{
+    font-family: Playfair Display;
+    padding-left: 3vw;
+    padding-right: 4vw;
+}
+.navbar-brand{
+    padding-left: 1vw;
+}
+.bg-dark{
+    background-color: rgb(20, 20, 20)!important;
+}
+.nav-item{
+    margin-right: 2vw;
+}
+.bg-img{
+    height: 40vh;
+    background-image: url(/assets/r3.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+.bg-cover{
+    height: 40vh;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.roomHeading{
+    font-family: Playfair Display;
+    font-size: 4vw;
+}
+.landing-container{
+    padding-top: 15vh;
+    color: white;
+}
+.roomImage{
+    height: 40vh;
+    width: 40vw;
+}
+.price-tag{
+    font-family: Playfair Display;
+    font-size: 1.5vw;
+    font-weight: bold;
+}
+.room-name{
+    font-family: Playfair Display;
+    font-size: 2.5vw;
+    font-weight: bold;
+}
+.room-details{
+    font-family: Playfair Display;
+    font-size: 1.3vw;
+    font-weight: bold;
+}
+.btn-outline-dark{
+    background-color: #B8A271;
+    border-color: #B8A271;
+    border-radius: 50px;
+    font-family: Playfair Display;
+    padding: 2px 30px 2px 30px;
+    font-size: 1vw;
+}
+.btn-outline-dark:hover{
+    background-color: #B8A271;
+    border-color: #B8A271;
+}
+.btn-holder{
+    padding-top: 3vh;
+}
+
+
+
+footer{
+    color: white;
+    font-family: Playfair Display;
+}
+.footer-text{
+    font-size: 1.5vw; 
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 724px) {
+    .bg-img{
+        height: 30vh;
+    }
+    .bg-cover{
+        height: 30vh;
+    }
+    .landing-container{
+        padding-top: 10vh;
+    }
+    .roomHeading{
+        font-size: 10vw;
+    }
+    .roomImage{
+        width: 80vw;
+    }
+    .btn-outline-dark{
+        font-size: 3vw;
+    }
+    .price-tag{
+        font-size: 3vw;
+    }
+    .room-name{
+        font-size: 4vw;
+    }
+    .room-details{
+        font-size: 3vw;
+    }
+    .footer-text{
+        font-size: 6vw;
+    }
+    
+}
+ 
+ @media screen and (min-width: 724px) and (max-width: 1050px){
+     .navbar-brand{
+         font-size: 2vw;
+     }
+     .roomHeading{
+        font-size: 10vw;
+    }
+    .price-tag{
+        font-size: 3vw;
+    }
+    .room-name{
+        font-size: 4vw;
+    }
+    .room-details{
+        font-size: 3vw;
+    }
+    .btn-outline-dark{
+        font-size: 2.5vw;
+    }
+   
+ }
+ @media screen and (min-width: 1050px) {
+     .navbar-brand{
+         font-size: 2.5vh;
+     }
+     
+     
+     
+ }
